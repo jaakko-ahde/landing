@@ -31,20 +31,3 @@ body.dark .card {
 body.dark .card h3 {
 	color: #121212;
 }
-
-.section-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 25px;
-	margin-bottom: 20px;
-	padding-right: 30px;
-}
-
-.section-header h2 {
-	margin: 0;
-}
-
-.section-header .btn-blue {
-	border: none;
-}
