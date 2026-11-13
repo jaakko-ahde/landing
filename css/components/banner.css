@@ -1,0 +1,29 @@
+.banner {
+	background-image: linear-gradient(176deg, #0b91b199 0%, #3a2c123d 50%), url("../../images/car2.avif");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding: 150px 0px;
+}
+
+.banner h1 {
+	font-size: 50px;
+}
+
+.banner h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	margin-bottom: 50px;
+}
+
+@media (max-width: 720px) {
+	.banner {
+		padding: 100px 0px;
+	}
+}
+
+@media (max-width: 540px) {
+	.banner {
+		padding: 60px 0px;
+	}
+}
